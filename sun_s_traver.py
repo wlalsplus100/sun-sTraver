@@ -861,7 +861,7 @@ def smithy():
                         weapons_explanation = weapons_explanations[weapons['shield']]
                         weapons_rating_text = weapons_rating[optimization_shield]
                         ability = abilitys[weapons['shield']]
-                elif healthy_button_x_pos < pygame.mouse.get_pos()[0] < healthy_button_x_pos + healthy_button_width and healthy_button_y_pos < pygame.mouse.get_pos(0)[1] < healthy_button_y_pos + healthy_button_height:
+                elif healthy_button_x_pos < pygame.mouse.get_pos()[0] < healthy_button_x_pos + healthy_button_width and healthy_button_y_pos < pygame.mouse.get_pos()[1] < healthy_button_y_pos + healthy_button_height:
                     now_upgrade = list(weapons.keys())[2]
                     if weapons['healthy'] == common_healthy:
                         big_image = big_images[weapons['healthy']]
